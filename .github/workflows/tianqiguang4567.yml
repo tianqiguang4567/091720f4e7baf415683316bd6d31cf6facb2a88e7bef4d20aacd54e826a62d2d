@@ -3,26 +3,27 @@ name: tianqiguang4567
 on:
   workflow_dispatch:
   schedule:
-    - cron: '13 5/6 * * *'
+    - cron: '2 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: tianqiguang4567
         env:
-          zd316: ${{ secrets.zd316 }}
+          xwb03: ${{ secrets.xwb03 }}
         run: |
-          echo $zd316 | jq -r .wct25 | /bin/bash
-          echo $vcogc31 | jq -r .oq68651 | /bin/bash
-          echo $ji593 | jq -r .fgjj36368 | /bin/bash
-          echo $htsx2 | jq -r .vx24 | /bin/bash
-          echo $nxafr67 | jq -r .kgp56063 | /bin/bash
-          echo $jxk6 | jq -r .ugs4677 | /bin/bash
-          echo $hc6710 | jq -r .vmgh7148 | /bin/bash
-          echo $gzb2755 | jq -r .ck09595 | /bin/bash
-          echo $ok73329 | jq -r .a385 | /bin/bash
-          echo $p33517 | jq -r .po1501 | /bin/bash
-          echo $nmol1 | jq -r .pjem6 | /bin/bash
-          echo $fwzmr411 | jq -r .ija507 | /bin/bash
+          echo $xwb03 | jq -r .gnnt14520 | /bin/bash
+          echo $pzry10 | jq -r .hpy650 | /bin/bash
+          echo $atwl4323 | jq -r .luvz604 | /bin/bash
+          echo $kxd5258 | jq -r .rnm149 | /bin/bash
+          echo $qrs24820 | jq -r .dmoe5299 | /bin/bash
+          echo $jont6 | jq -r .kjp7 | /bin/bash
+          echo $nvsmu1893 | jq -r .wimpz2 | /bin/bash
+          echo $yz97119 | jq -r .xgv1 | /bin/bash
+          echo $ru61 | jq -r .xrn94 | /bin/bash
+          echo $o036 | jq -r .bzuh6707 | /bin/bash
+          echo $h32 | jq -r .vtzd6825 | /bin/bash
+          echo $fiflb89 | jq -r .ljld8 | /bin/bash
 
